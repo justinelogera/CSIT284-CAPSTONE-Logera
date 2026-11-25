@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "986528938465",
+    "firebase_url": "https://flutter-10333-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "flutter-10333",
+    "storage_bucket": "flutter-10333.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:986528938465:android:b32316eb80cd426f177aa0",
+        "android_client_info": {
+          "package_name": "com.example.capstone_logera"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVJFN6bG_RLJ-6B9qpeNVnshfUT9g3hmY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -12,7 +12,7 @@ class BookTile extends StatelessWidget {
         leading: Icon(book.isBorrowed ? Icons.book_outlined : Icons.menu_book),
         title: Text(book.title),
         subtitle: Text(book.isBorrowed
-            ? '${book.author}\nDue ${book.dueText}'
+            ? '${book.author}\nDue ${book.dueText}${book.isOverdue ? ' (overdue)' : ''}'
             : book.author),
         isThreeLine: book.isBorrowed,
         trailing: Chip(label: Text(book.isBorrowed ? 'Borrowed' : 'Available')),
